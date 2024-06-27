@@ -1,0 +1,25 @@
+.container {
+  background-color: #002366; /* 深蓝色背景 */
+  color: white; /* 白色文字 */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.info, .details, .additional-info {
+  margin-bottom: 20px;
+}
+
+.info p, .details p, .additional-info p {
+  margin: 5px 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.additional-info {
+  background-color: #1E90FF; /* 浅蓝色背景 */
+  padding: 10px;
+}

@@ -6,22 +6,37 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@univerjs/core": "^0.1.7",
+    "@univerjs/design": "^0.1.7",
+    "@univerjs/docs": "^0.1.7",
+    "@univerjs/docs-ui": "^0.1.7",
+    "@univerjs/engine-formula": "^0.1.7",
+    "@univerjs/engine-render": "^0.1.7",
+    "@univerjs/sheets": "^0.1.7",
+    "@univerjs/sheets-formula": "^0.1.7",
+    "@univerjs/sheets-ui": "^0.1.7",
+    "@univerjs/ui": "^0.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "globals": {
+      "__webpack_public_path__": true
+    }
   },
   "browserslist": {
     "production": [
@@ -34,5 +49,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "webpack-deadcode-plugin": "^0.1.17",
+    "webpack-unused-plugin": "^0.0.0"
   }
 }

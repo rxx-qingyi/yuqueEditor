@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/main.5eb12ba69855695a277d.js",
+    "main.css": "/static/css/main.3a284a69.css",
+    "682.js": "/682.ec094c4fe663d9121635.js",
+    "index.html": "/index.html",
+    "my-assets.md": "/my-assets.md",
+    "main.js.map": "/main.5eb12ba69855695a277d.js.map",
+    "main.3a284a69.css.map": "/static/css/main.3a284a69.css.map",
+    "682.js.map": "/682.ec094c4fe663d9121635.js.map"
+  },
+  "entrypoints": [
+    "main.5eb12ba69855695a277d.js",
+    "static/css/main.3a284a69.css"
+  ]
+}
